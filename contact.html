@@ -57,7 +57,7 @@
     </header>
 
     <!-- Sub-header -->
-    <div class="sub-header">
+    <section class="sub-header">
         <div class="container">
 
             <nav class="sub-header-navigation">
@@ -68,9 +68,9 @@
         </div>
 
         <img src="images/background-lines.svg" alt="swirly background lines">
-    </div>
+    </section>
     <!-- Contact -->
-    <div class="contact-background">
+    <section class="contact-background">
         <div class="contact-boxes">
             <div class="container">
                 <div class="contact-item">
@@ -110,18 +110,19 @@
         </div>
 
         <div class="form-background container">
-            <h2 class="center-content">Leave us a message for any information.</h2>
-
-            <input class="input-default" type="text" placeholder="Name*" id="name" name="name">
-            <input class="input-default" type="text" placeholder="Email*" id="email" name="email">
-            <textarea class="input-default input-large" type="text" placeholder="Your Message*" id="message"
-                name="message"></textarea>
-            <button type="submit" class="rounded-button orange-button">
-                Send Message
-                <i class="fa-light fa-arrow-up-right"></i>
-            </button>
+            <h2>Leave us a message for any information.</h2>
+            <form id="send-message" method="post">
+                <input class="input-default" type="text" placeholder="Name*" id="name" name="name">
+                <input class="input-default" type="text" placeholder="Email*" id="email" name="email">
+                <textarea class="input-default input-large" type="text" placeholder="Your Message*" id="message"
+                    name="message"></textarea>
+                <button type="submit" class="rounded-button orange-button">
+                    Send Message
+                    <i class="fa-light fa-arrow-up-right"></i>
+                </button>
+            </form>
         </div>
-    </div>
+    </section>
     <!-- Map -->
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6844.251329495302!2d18.05852860944116!3d59.33615631458771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d6799554e87%3A0x6562d2c842903003!2sSveav%C3%A4gen%2031%2C%20111%2034%20Stockholm!5e0!3m2!1ssv!2sse!4v1696515125239!5m2!1ssv!2sse"
